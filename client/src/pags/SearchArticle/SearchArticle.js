@@ -88,13 +88,13 @@ class SearchArticle extends Component {
                                     onChange={this.handleInputChange}
                                     name="NumOfRecords"
                                 />
-                                <Lable value="Start Year (YYYY-MM-DD format) :" />
+                                <Lable value="Start Year (Optional) :" />
                                 <Input
                                     value={this.state.startDate}
                                     onChange={this.handleInputChange}
                                     name="startDate"
                                 />
-                                <Lable value="End Year (YYYY-MM-DD format):" />
+                                <Lable value="End Year (Optional):" />
                                 <Input
                                     value={this.state.endDate}
                                     onChange={this.handleInputChange}
