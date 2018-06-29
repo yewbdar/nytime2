@@ -16,6 +16,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Use apiRoutes
 app.use("/api",apiRoutes);
+//deploy on heroku 
 //connect to mongoDB
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/nytreact"
